@@ -1,10 +1,10 @@
 #!/bin/bash
 
 mkdir /root/dns_service
-wget -O /root/dns_service/dns_updater 
+wget -O /root/dns_service/dns_updater https://raw.githubusercontent.com/TelksBr/dns_updater/refs/heads/main/dns_updater
 chmod +x /root/dns_service/dns_updater
 
-SERVICE_NAME="api-v2-server"
+SERVICE_NAME="dns_updater"
 SERVICE_FILE="/etc/systemd/system/${SERVICE_NAME}.service"
 BINARY_PATH="/root/dns_service/dns_updater"
 WORKING_DIR=/root"/dns_service"
