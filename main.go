@@ -16,7 +16,7 @@ import (
 const (
 	apiToken      = "x-6IBY2gHGb11vr60F13YznNFXmEgATFJpWwMu3g"
 	domain        = "sshtproject.com"
-	subdomain     = "ssht.telks.sshtproject.com"
+	subdomain     = "bot.sshtproject.com"
 	interfaceName = "eth0" // Nome da interface de rede que possui o endereço IPv6
 	logFile       = "ip_update.log"
 )
